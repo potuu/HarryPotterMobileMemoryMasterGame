@@ -1,7 +1,7 @@
 # HarryPotterMemoryMasterGame
 It's a card pairing game based on Harry Potter character names, houses. 
 
-GİRİŞ
+GİRİŞ:
 Bu projenin Android platformuna uygulanması istendiğinden Java dili seçilmiştir.Bulunacak kartlar database kısmında saklanması istenmiştir.Bu amaçla seçilen database Firebase’dir. 
 
 Giriş ekranı: Oyun ilk açıldığında ekranda açılacak sayfa giriş ekranı vardır. Kullanıcı bu ekranda, kullanıcı adı ve şifresi ile giriş yapabilmeli, şifre değiştirebilmeli ve kaydolabilmelidir.
