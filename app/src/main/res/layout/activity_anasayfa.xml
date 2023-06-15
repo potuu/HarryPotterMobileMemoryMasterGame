@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplanresmi"
+    tools:context=".Anasayfa">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="187dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="204dp"
+        android:backgroundTint="#1DFFFFEE"
+        android:onClick="tekoyuncu"
+        android:text="@string/tek_oyuncu"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#1DFFFFEE"
+        android:onClick="ikioyuncu"
+        android:text="@string/_2_oyuncu"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <CheckBox
+        android:id="@+id/seviye1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:onClick="level1"
+        android:outlineAmbientShadowColor="#ffffff"
+        android:outlineSpotShadowColor="#ffffff"
+        android:text="@string/_4_kart"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:checkedState="checked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <CheckBox
+        android:id="@+id/seviye3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="level3"
+        android:outlineAmbientShadowColor="#ffffff"
+        android:outlineSpotShadowColor="#ffffff"
+        android:text="@string/_36_kart"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seviye2" />
+
+    <CheckBox
+        android:id="@+id/muzikdur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="arkaplanMuzik"
+        android:outlineAmbientShadowColor="#ffffff"
+        android:outlineSpotShadowColor="#ffffff"
+        android:text="@string/arkaplan_m_zi_ini_durdur"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seviye3" />
+
+    <CheckBox
+        android:id="@+id/seviye2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#ffffff"
+        android:onClick="level2"
+        android:outlineAmbientShadowColor="#ffffff"
+        android:outlineSpotShadowColor="#ffffff"
+        android:shadowColor="#ffffff"
+        android:text="@string/_16_kart"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seviye1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

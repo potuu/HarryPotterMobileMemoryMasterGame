@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HarryPotter</string>
+    <string name="giris">Giriş</string>
+    <string name="kaydol">Kaydol</string>
+    <string name="kullan_c_ad">Kullanıcı Adı</string>
+    <string name="ifre">Şifre</string>
+    <string name="sifre">Şifre</string>
+    <string name="harry_potter">Harry Potter</string>
+    <string name="ifremi_unuttum">Şifrenizi mi Unuttunuz?</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="_16_kart">16 KART</string>
+    <string name="_36_kart">36 KART</string>
+    <string name="_2_oyuncu">2 Oyuncu</string>
+    <string name="tek_oyuncu">Tek Oyuncu</string>
+    <string name="_4_kart">4 KART</string>
+    <string name="ifre_yenileme">Şifre Yenileme</string>
+    <string name="g_nder">Gönder</string>
+    <string name="arkaplan_m_zi_ini_durdur">Arkaplan müziğini durdur.</string>
+    <string name="kartlar_g_r">Kartları gör</string>
+    <string name="k">Çıkış</string>
+</resources>
