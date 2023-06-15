@@ -45,5 +45,5 @@ Bu müzik oyun oynanırken çalmaya devam eder ve 3 durumda bu müzik değişece
 
 ![hp6](https://github.com/potuu/HarryPotterMemoryMasterGame/assets/82321990/74ea00e0-8d8c-4ea0-b4e9-660da743e670)
 
-![hp6](https://github.com/potuu/HarryPotterMemoryMasterGame/assets/82321990/00f8bf79-b722-42ac-b8e0-22cf10539aef)
+![hp5](https://github.com/potuu/HarryPotterMemoryMasterGame/assets/82321990/1cd3522a-7880-49c4-9a48-0d40a7024095)
 
